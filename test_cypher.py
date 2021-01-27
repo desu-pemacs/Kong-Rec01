@@ -2,6 +2,7 @@ import pytest
 from cypher import *
 
 
+
 def test_encrypt_1():
     expected = '_T8/szUG'
     actual = encrypt('Elements', 'My Secret Password')
